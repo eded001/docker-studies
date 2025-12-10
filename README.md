@@ -6,16 +6,20 @@ Segue abaixo uma lista com o que sei fazer com a ferramenta e o que já aprendi 
 
 ## Projetos
 
-1. Backend básico
+### Backend básico
 
-   Stacks:
+[Veja mais](./basic-backend/)
 
-   - Express.js (JavaScript - Node 24-Alpine)
+Stacks:
 
-2. Backend com o banco de dados PostgreSQL
+1. Express.js (JavaScript - Node 24-Alpine)
 
-   Stacks:
+### Backend com o banco de dados PostgreSQL
 
-   - FastAPI (Python);
-   - PostgreSQL;
-   - Redis.
+[Veja mais](./backend-db/)
+
+Stacks:
+
+1. FastAPI (Python - Python 3-slim);
+2. PostgreSQL (PostgreSQL 18);
+3. Redis (Redis x).
