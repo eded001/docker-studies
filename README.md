@@ -14,6 +14,8 @@ Stacks:
 
 1. Express.js (JavaScript - Node 24-Alpine)
 
+---
+
 ### Backend com o banco de dados PostgreSQL
 
 [Veja mais](./backend-db/)
@@ -23,3 +25,5 @@ Stacks:
 1. FastAPI (Python - Python 3-slim);
 2. PostgreSQL (PostgreSQL 18);
 3. Redis (Redis x).
+
+---
