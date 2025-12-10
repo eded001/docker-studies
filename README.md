@@ -1,29 +1,27 @@
 # Estudos com Docker
 
-Este repositório é dedicado aos meus estudos com **Docker**.
+Este repositório consolida meus estudos e experimentos com Docker, com foco em boas práticas, modularidade e evolução arquitetural consistente.
 
-Segue abaixo uma lista com o que sei fazer com a ferramenta e o que já aprendi até o momento.
+---
 
 ## Projetos
 
-### Backend básico
+### **Backend Básico**
+
+![Node](https://img.shields.io/badge/Node.js-339933?logo=node.js\&logoColor=white)
+![Express](https://img.shields.io/badge/Express.js-black?logo=express)
 
 [Veja mais](./basic-backend/)
 
-Stacks:
-
-1. Express.js (JavaScript - Node 24-Alpine)
+Backend minimalista, estruturado como baseline.
 
 ---
 
-### Backend com o banco de dados PostgreSQL
+### **Backend com Banco de Dados PostgreSQL**
+
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python\&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi\&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql\&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?logo=redis\&logoColor=white)
 
 [Veja mais](./backend-db/)
-
-Stacks:
-
-1. FastAPI (Python - Python 3-slim);
-2. PostgreSQL (PostgreSQL 18);
-3. Redis (Redis x).
-
----
