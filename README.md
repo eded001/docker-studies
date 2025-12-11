@@ -25,3 +25,5 @@ Backend minimalista, estruturado como baseline.
 ![Redis](https://img.shields.io/badge/Redis-DC382D?logo=redis\&logoColor=white)
 
 [Veja mais](./backend-db/)
+
+Backend completo com FastAPI, PostgreSQL e Redis, dockerizado para facilitar testes e deploy.
