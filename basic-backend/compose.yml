@@ -2,7 +2,6 @@ services:
   backend:
     build:
       dockerfile: ./
-
     ports:
       - 3000:3000
     volumes:
