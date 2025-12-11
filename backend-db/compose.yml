@@ -1,0 +1,24 @@
+services:
+  db:
+    image: postgres:18
+    container_name: db
+    environment:
+      POSTGRES_USER: docker
+      POSTGRES_PASSWORD: docker_pass
+      POSTGRES_DB: schema
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql
+
+  api:
+    build:
+      dockerfile: Dockerfile
+    container_name: api
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./src:/app/src
+
+volumes:
+  pgdata:
