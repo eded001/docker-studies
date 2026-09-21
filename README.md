@@ -1,29 +1,54 @@
-# Estudos com Docker
+# Docker Studies
 
-Este repositório consolida meus estudos e experimentos com Docker, com foco em boas práticas, modularidade e evolução arquitetural consistente.
-
----
+Laboratório de estudos e experimentos com **Docker e Docker Compose**, organizado em pequenos projetos para praticar containerização, comunicação entre serviços e persistência.
 
 ## Projetos
 
-### **Backend Básico**
+### `basic-backend`
 
-![Node](https://img.shields.io/badge/Node.js-339933?logo=node.js\&logoColor=white)
-![Express](https://img.shields.io/badge/Express.js-black?logo=express)
+Backend básico em Node.js/Express usado como ponto de partida para estudar criação de imagens e execução de containers.
 
-[Veja mais](./basic-backend/)
+### `basic-frontend`
 
-Backend minimalista, estruturado como baseline.
+Frontend isolado para praticar containerização de aplicações cliente.
 
----
+### `backend-db`
 
-### **Backend com Banco de Dados PostgreSQL**
+Projeto com backend Python/FastAPI integrado a PostgreSQL e Redis, voltado a cenários com múltiplos serviços.
 
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python\&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi\&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql\&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?logo=redis\&logoColor=white)
+## Tecnologias exploradas
 
-[Veja mais](./backend-db/)
+- Docker
+- Docker Compose
+- Node.js
+- Express
+- Python
+- FastAPI
+- PostgreSQL
+- Redis
 
-Backend completo com FastAPI, PostgreSQL e Redis, dockerizado para facilitar testes e deploy.
+## Estrutura
+
+```text
+.
+├── basic-backend/
+├── basic-frontend/
+├── backend-db/
+└── docs/
+```
+
+## Objetivo
+
+O repositório funciona como ambiente de prática para conceitos como:
+
+- criação de `Dockerfile`;
+- build de imagens;
+- execução e remoção de containers;
+- mapeamento de portas;
+- volumes;
+- variáveis de ambiente;
+- redes entre containers;
+- Docker Compose;
+- aplicações multi-serviço.
+
+Cada diretório representa uma etapa independente da evolução dos estudos.
